@@ -10,7 +10,7 @@ const Clients = () => {
         return <Loading />
     }
     else if (error) {
-        return <p>An error occured when loading this page.</p>
+        return <p>An error occured when loading this section.</p>
     } 
 
     return (
